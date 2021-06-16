@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Sports Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <!--HEADER-->
-<header></header>
+<header>
+    <h1>Welcome to Your Dashboard!</h1>
+</header>
 
 <!--********************************************************************************-->
 <!--This section of the page will have updates on the current user's favorite teams-->
@@ -15,6 +18,7 @@
 
 <!--Favorite NFL Team Information (Football API will render data to these divs)-->
 <div class="favoriteNFLTeam">
+    <h3>The Shield</h3>
     <div id="topPerformerNFL"></div>
     <div id="teamScheduleNFL"></div>
     <div id="teamFanShopNFL"></div>
@@ -24,6 +28,7 @@
 </div>
 <!--Favorite NBA Team Information (Basketball API will render data to these divs)-->
 <div class="favoriteNBATeam">
+    <h3>The Association</h3>
     <div id="topPerformerNBA"></div>
     <div id="teamScheduleNBA"></div>
     <div id="teamFanShopNBA"></div>
@@ -33,6 +38,7 @@
 </div>
 <!--Favorite MLB Team Information (Baseball API will render data to these divs)-->
 <div class="favoriteMLBTeam">
+    <h3>The Big Leagues</h3>
     <div id="topPerformerMLB"></div>
     <div id="teamScheduleMLB"></div>
     <div id="teamFanShopMLB"></div>
@@ -40,14 +46,15 @@
     <div id="teamStandingsMLB"></div>
     <div id="deeperStatisticsMLB"></div>
 </div>
-<!--Favorite MLS Team Information (Soccer API will render data to these divs)-->
-<div class="favoriteMLSTeam">
-    <div id="topPerformerMLS"></div>
-    <div id="teamScheduleMLS"></div>
-    <div id="teamFanShopMLS"></div>
-    <div id="teamHighlightsMLS"></div>
-    <div id="teamStandingsMLS"></div>
-    <div id="deeperStatisticsMLS"></div>
+<!--Favorite World Soccer Team Information (Soccer API will render data to these divs)-->
+<div class="favoriteSoccerTeam">
+    <h3>The Pitch</h3>
+    <div id="topPerformerSoccer"></div>
+    <div id="teamScheduleSoccer"></div>
+    <div id="teamFanShopSoccer"></div>
+    <div id="teamHighlightsSoccer"></div>
+    <div id="teamStandingsSoccer"></div>
+    <div id="deeperStatisticsSoccer"></div>
 </div>
 
 <!--********************************************************************************-->
@@ -58,24 +65,27 @@
 
 <!--Show Highlights from all leagues. (Likely implementation: modal-based videos)-->
 <div class="allLeaguesHighlights">
+    <h3>Recent Highlights</h3>
     <div id="highlightsNFL"></div>
     <div id="highlightsNBA"></div>
     <div id="highlightsMLB"></div>
-    <div id="highlightsMLS"></div>
+    <div id="highlightsSoccer"></div>
 </div>
 <!--Show upcoming matches around all 4 major American sports leagues (Likely implementation: Info Cards)-->
 <div class="allLeaguesUpcomingMatches">
+    <h3>Upcoming Matches</h3>
     <div id="upcomingNFL"></div>
     <div id="upcomingNBA"></div>
     <div id="upcomingMLB"></div>
-    <div id="upcomingMLS"></div>
+    <div id="upcomingSoccer"></div>
 </div>
 <!--Show our team's current Top 5 MVP Leaders around all 4 major American sports leagues (Likely Implementation: Ordered List)-->
 <div class="allMVPRaces">
+    <h3>Top Performers</h3>
     <div class="mostValNFL"></div>
     <div class="mostValNBA"></div>
     <div class="mostValMLB"></div>
-    <div class="mostValMLS"></div>
+    <div class="mostValSoccer"></div>
 </div>
 </body>
 </html>
